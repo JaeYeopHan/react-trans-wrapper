@@ -1,0 +1,27 @@
+.fade-enter {
+  display: block;
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+.fade-enter-done {
+  display: block;
+}
+.fade-exit {
+  display: block;
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+.fade-exit-done {
+  display: none;
+}

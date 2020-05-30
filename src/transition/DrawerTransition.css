@@ -1,0 +1,18 @@
+.drawer-enter {
+  transform: translate3d(0, 100%, 0);
+}
+.drawer-enter-active {
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: transform 400ms;
+  -moz-transition: transform 400ms;
+  transition: transform 400ms;
+}
+.drawer-exit {
+  transform: translate3d(0, 0, 0);
+}
+.drawer-exit-active {
+  transform: translate3d(0, 100%, 0);
+  -webkit-transition: transform 400ms;
+  -moz-transition: transform 400ms;
+  transition: transform 400ms;
+}

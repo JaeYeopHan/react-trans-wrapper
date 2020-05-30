@@ -1,0 +1,22 @@
+.collapse-exit {
+  display: block;
+  overflow: hidden;
+  max-height: 150px;
+}
+.collapse-exit-active {
+  max-height: 300px;
+  -webkit-transition: max-height 0.3s;
+  -moz-transition: max-height 0.3s;
+  transition: max-height 0.3s;
+}
+.collapse-enter {
+  display: block;
+  overflow: hidden;
+  max-height: 300px;
+}
+.collapse-enter-active {
+  max-height: 150px;
+  -webkit-transition: max-height 0.3s;
+  -moz-transition: max-height 0.3s;
+  transition: max-height 0.3s;
+}

@@ -1,0 +1,32 @@
+.fixed-enter {
+  opacity: 0;
+  position: fixed;
+  transform: translate3d(0, -100%, 0);
+  z-index: 1;
+}
+.fixed-enter-active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: opacity 0.3s, transform 0.3s;
+  -moz-transition: opacity 0.3s, transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+}
+.fixed-enter-done {
+  position: fixed;
+  z-index: 1;
+}
+.fixed-exit {
+  position: fixed;
+  transform: translate3d(0, 0, 0);
+  z-index: 1;
+}
+.fixed-exit-active {
+  opacity: 0;
+  transform: translate3d(0, -100%, 0);
+  -webkit-transition: opacity 0.3s, transform 0.3s;
+  -moz-transition: opacity 0.3s, transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+}
+.fixed-exit-done {
+  display: none;
+}
