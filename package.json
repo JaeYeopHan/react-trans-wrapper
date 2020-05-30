@@ -35,7 +35,9 @@
     "typescript": "^3.9.3"
   },
   "dependencies": {
-    "react": "^16.13.1"
+    "@types/react-transition-group": "^4.4.0",
+    "react": "^16.13.1",
+    "react-transition-group": "^4.4.1"
   },
   "husky": {
     "hooks": {
